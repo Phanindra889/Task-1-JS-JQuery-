@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="contact.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="jquery.js"></script>
+        
+    </head>
+    <body>
+        <div class="complete-page">
+            <div class="page-header">
+                <h1 class="page-heading">Technovert</h1>    
+            </div>
+            <div class="page-navigators">
+                <ul class="navigator-items">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li id="active-item"><a  href="contact.html">Contact</a></li>
+                    <img class="nav-blog-image" src="blog-icon.png" alt="blog image">
+                </ul>
+                
+            </div>
+        </div>
+        <h2 id="alert-to-fill"></h2>
+        <form class="contact-form" name="myform" >
+            <div class="main-details">
+                <ul class="contact-details-items">
+                    <li class="contact-details-item"><label for="fname">My Name: </label></li>
+                    <li class="contact-details-item"><label for="email">My Email Address:</label></li>
+                    <li class="contact-details-item"><label for="telephone">My Telephone Number:</label></li>
+                    <li class="contact-details-item"><label for="gender">Gender:</label></li>
+                    <li class="contact-details-item"><label for="organization">My Organization Name:</label></li>
+                    <li class="contact-details-item"><label for="city">My City:</label></li>
+                    <li class="contact-details-item"><label for="state-province">My State or Province:</label></li>
+                    <li class="contact-details-item"><label for="contact-by">Please Contact Me By:</label></li>
+                    <li class="contact-details-item"><label for="promotion-code">Promotion Code:</label></li>
+                </ul>
+                <ul class="input-box-items">
+                    <li class="input-box-item">
+                        <input type="text" id="fname" /><span id="alert-name">*</span>
+                    </li>
+                    <li class="input-box-item">
+                        <input type="text" name="email" id="email" /><span id="alert-mail">*</span>
+                    </li>
+                    <li class="input-box-item">
+                        <input type="text" name="telephone" id="telephone" />
+                    </li>
+                    <li class="input-box-item">
+                        <input type="radio" name="gender" id="gender-male" value="male" >Male
+                        <input type="radio" name="gender" id="gender-female" value="female" />Female
+                    </li>
+                    <li class="input-box-item">
+                        <input type="text" name="organization" id="organization" required/><span id="alert-organization">*</span>
+                    </li>
+                    <li class="input-box-item">
+                        <input type="text" name="city" id="city" />
+                    </li>
+                    <li class="input-box-item">
+                        <select name="state-province" id="state-province" >
+                            <option selected hidden disabled>Select State or Province</option>
+                        </select>
+                    </li>
+                    <li class="input-box-item">
+                        <input type="radio" id="contact-by" value="email" name="contact-by" />Email<br>
+                        <input type="radio" id="contact-by" value="phone" name="contact-by" />Phone<br>
+                        <input type="radio" id="contact-by" value="both" name="contact-by" />Both
+                    </li>
+                    <li class="input-box-item">
+                        <input type="text" id="promotion-code" name="promotion code" />
+                    </li>
+                </ul>   
+            </div>
+            <div class="optional-info">
+                <p class="optional-heading">Optional Information</p>
+                <p class="optional-desc">This information is optional but it helps us to serve you better.</p>
+
+                <label for="website-address">My Website Address is:</label>
+                <input type="text" id="website-address" name="website address">
+                <div class="organization-data">
+                    <label for="organization-text-area">Tell Us More About Your Organization:</label><br>
+                    <textarea id="organization-text-area" ></textarea>
+                </div>
+                <div class="comment-field">
+                    <label for="comment-area">What I'd really like to know is:</label><br>
+                    <textarea id="comment-area" ></textarea>
+                </div>
+            </div>
+            <div class="submit-reset">
+                <input type="button"   id="submit" value="Send Message"/>
+                <input type="button"  id="clear-form" value="Clear Form" />
+            </div>
+        </form>
+    </body>
+</html>

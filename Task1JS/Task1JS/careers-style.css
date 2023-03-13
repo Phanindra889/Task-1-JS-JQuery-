@@ -1,0 +1,165 @@
+*{
+    margin: 0%;
+    padding:0%
+}
+
+.page-header {
+    background-color: #3399cc;
+    height:88px;
+}
+#active-item {
+    background-color: #ff9900;
+    border-left:4px solid white;
+    color:black;
+}
+#active-item >a{
+    color:black;
+}
+
+.page-heading {
+    font-family:Century Gothic,CenturyGothic,sans-serif;
+    color: white;
+    padding-top :20px;
+    padding-left: 23px;
+    font-size: 41px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+
+.page-navigators li {
+    display: inline-block;
+    color: white;
+    /* padding: 6px 15px; */
+    padding-top: 6px;
+    padding-left: 11px;
+    padding-right: 12px;
+    /* background-color: blue; */
+     border-left: 4px solid #333333; 
+    height: 23.5px;
+    margin-right: -3px;
+}
+
+
+.navigator-items {
+    text-transform: uppercase;
+    font-family:'Noto sans',sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.page-navigators {
+    background-color: #333333;
+    height:29.6px;
+    padding-left: 11px;
+}
+
+.navigator-items li:nth-child(4){
+    margin-left:-1px;
+}
+
+#browse-file{
+    display: none;
+}
+
+.nav-blog-image {
+    float:right;
+    margin-top: 3.5px;
+    padding-right:30px;
+}
+.navigator-items li>a{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+.navigator-items li:hover{
+    background-color: #ff9900;
+    border-left:4px solid white;
+    color:black;
+}
+
+.careers-header {
+    font-family:Century Gothic,CenturyGothic,sans-serif;
+    font-size: 21px;
+    margin-bottom:14px;
+}
+
+.career-main-page {
+    margin-left: 52px;
+    margin-top: 16px
+}
+
+.careers-main-data {
+    font-family:'Noto sans',sans-serif;
+    font-size: 13px;
+    width: 82%;
+}
+
+.career-details-form {
+    margin-top: 41px;
+    margin-left: 20px;
+    font-size: 10px;
+    font-weight: bolder;
+    letter-spacing: 0.4px;
+}
+
+.career-details-form > label {
+    width :20%;
+}
+
+.career-items li{
+    list-style-type: none;
+    margin-bottom:18px;
+}
+
+input{
+    width:140px;
+    height:25px;
+}
+
+#name {
+    margin-left:71px;
+}
+
+#email{
+    margin-left:71px;
+}
+
+#desired-role {
+    margin-left:34px;
+}
+
+#upload-resume {
+    margin-left:20px;
+    margin-right:10px;
+}
+#browse{
+    padding-left:10px;
+    width: 80px;
+    height: 25px;
+
+}
+#upload-file {
+    font-size: 11px;
+    padding-left: -4px;
+    font-weight: bold;
+    padding-top: 5px;
+    background-color: #80808024;
+    padding-right: 22px;
+    border-radius: 3px;
+    padding-left: 13px;
+    padding-bottom: 4px;
+    font-family: 'Noto sans',' sans-serif';
+    border: 1px solid #0000006e;
+}
+
+#submit {
+    width: 100px;
+    margin-left: 104px;
+    font-family: 'Noto sans','sans-serif';
+    font-size: 11px;
+    font-weight: 600;
+    padding-right: 30px;
+}
+
+

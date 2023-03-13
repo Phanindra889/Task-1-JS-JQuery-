@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <link href="careers-style.css" rel="stylesheet"/>
+    </head>
+    <body>
+        
+        <div class="page-header-part">
+            <div class="page-header">
+                <h1 class="page-heading">Technovert</h1>    
+            </div>
+            <div class="page-navigators">
+                <ul class="navigator-items">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li id="active-item"><a class="active-item" href="careers.html">Careers</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <img class="nav-blog-image" src="blog-icon.png" alt="blog image">
+                </ul>
+                
+            </div>
+        </div>
+        <div class="career-main-page">
+            <header class="careers-header">
+                <p>Careers at Technovert</p>
+            </header>
+            <div class="careers-main-data">
+                <p>We are looking for smart people who love fiddling with code and pour their heart into it.If you are one,we would like to talk to you.Please fill the form below and we will get back to you.</p>
+                <form class="career-details-form" >
+                    <ul class="career-items">
+
+                   <li><label for="name">Name</label>
+                    <input type="text" id="name" name="name"/></li>
+
+                    <li><label for="email">Email</label>
+                    <input type="text" id="email" name="email" /></li>
+
+                    <li><label for="desired-role">Desired Role</label>
+                    <input type="text" id="desired-role" name="desiredrole" /></li>
+                    
+                    <li><label for="upload-resume">Upload Resume</label>
+                    <input type="text" id="upload-resume" name="resume" />
+                    <input type="file" id="browse-file" onchange="resumeUpload()" >
+                        <label id="upload-file" for="browse-file" >Browse..</label>
+                    </li>
+                    </ul>
+                    <input type="submit" id="submit" name="submit" value="Submit"/>
+                </form>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
